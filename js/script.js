@@ -1,1 +1,1 @@
-mudarCor = () => document.getElementById('hello').innerHTML = 'Hello World!'
+mudarNome = () => document.getElementById('hello').innerHTML = 'Hello World!'
