@@ -1,6 +1,4 @@
+@import 'variables';
 @import 'reset';
-@import 'hero';
-
-body {
-    background-color: brown;
-}
+@import 'grid';
+@import 'home';
