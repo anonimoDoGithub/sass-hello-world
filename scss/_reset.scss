@@ -4,3 +4,22 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
