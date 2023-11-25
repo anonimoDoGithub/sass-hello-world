@@ -12,6 +12,15 @@
     &:hover {
         background-color: $purple-20;
     }
+    // TESTE RESPONSIVO
+    @include responsivo ('laptop') {
+        background-color: aliceblue ;
+        color: red;
+    }
+    @include responsivo ('mobile') {
+        background-color: red;
+        color: aliceblue;
+    }
 }
 
 .form-email {
