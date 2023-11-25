@@ -64,3 +64,25 @@
         }
     }
 }
+
+.review {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    & div {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        span {
+            color: $gray-100;
+            font-size: 1.8rem;
+            font-weight: 600;
+            line-height: 150%;
+            strong {
+                font-weight: 400;
+                color: $gray-600;
+            }
+        }
+        
+    }
+}
