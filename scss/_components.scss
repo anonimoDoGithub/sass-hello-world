@@ -14,6 +14,10 @@
     }
     // TESTE RESPONSIVO
     @include responsivo ('laptop') {
+        background-color: $gray-600;
+        color: aliceblue;
+    }
+    @include responsivo ('tablet') {
         background-color: aliceblue ;
         color: red;
     }
