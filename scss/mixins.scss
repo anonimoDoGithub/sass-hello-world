@@ -1,0 +1,14 @@
+@mixin flexCenter{
+    display: flex;
+    align-items: center;
+}
+
+@mixin flexCenterJustify {
+    @include flexCenter;
+    justify-content: space-between;
+}
+
+@mixin flexTotalCenter {
+    @include flexCenter;
+    justify-content: center;
+}

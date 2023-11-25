@@ -19,8 +19,7 @@
     border: 1px solid rgba(255, 255, 255, 0.04);
     background: rgba(255, 255, 255, 0.04);
     padding: 4px 4px 4px 2.4rem;
-    display: flex;
-    align-items: center;
+    @include flexCenter;
     width: 100%;
     max-width: 52.1rem;
     gap: 1.6rem;
@@ -42,9 +41,7 @@
     .icon {
         width: 4.8rem;
         height: 4.8rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexTotalCenter;
         border-radius: 4px;
         border: 1px solid rgba(255, 255, 255, 0.03);
         background: rgba(255, 255, 255, 0.03);
@@ -66,12 +63,10 @@
 }
 
 .review {
-    display: flex;
-    align-items: center;
+    @include flexCenter;
     gap: 8px;
     & div {
-        display: flex;
-        align-items: center;
+        @include flexCenter;
         gap: 4px;
         span {
             color: $gray-100;
